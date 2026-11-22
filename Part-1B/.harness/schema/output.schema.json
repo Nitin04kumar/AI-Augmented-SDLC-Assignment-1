@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReminderAgentOutput (spec: Output Schema Contract OSC-1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["intent", "title", "remind_at", "recurrence", "needs_clarification",
+               "missing_fields", "clarification_question", "refusal_reason", "confidence"],
+  "properties": {
+    "intent": {"enum": ["create", "reschedule", "snooze", "clarify", "refuse"]},
+    "title": {"type": ["string", "null"], "maxLength": 100},
+    "remind_at": {"type": ["string", "null"]},
+    "recurrence": {"enum": ["daily", "weekly", "monthly", null]},
+    "needs_clarification": {"type": "boolean"},
+    "missing_fields": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"enum": ["title", "date", "time", "target_reminder"]}
+    },
+    "clarification_question": {"type": ["string", "null"]},
+    "refusal_reason": {"type": ["string", "null"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

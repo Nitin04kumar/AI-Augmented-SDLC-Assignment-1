@@ -1,0 +1,64 @@
+{
+  "run": 3,
+  "label": "initial",
+  "overall": "PASS",
+  "timestamp": "2026-11-15T15:47:57.636601+00:00",
+  "python": "3.12.7",
+  "protected_hashes": {
+    ".harness/ruff.toml": "3fae97e56819ab4782adc66aa6877a28ee78b63eb1c2286bcd2fa41c8ee9d1b7",
+    ".harness/run_harness.py": "6cf46279ab638a41a81545e33dcc42fb501046ba458586655125640b423931bf",
+    ".specify/memory/constitution.md": "cba69d6b7925201dcf7e1b229d3331110c42d05000f0ba078c46bc98825b2df6",
+    "specs/001-smart-todo/checklists/requirements.md": "f3be81565cbff45823e3b31b961e952dfe155030ff18235bc99e32c78356b17b",
+    "specs/001-smart-todo/contracts/cli-contract.md": "5369d6acc9ce4c0b205b92e8e33d9dd745cda3b4adf7a755ddd8befe70a407c7",
+    "specs/001-smart-todo/data-model.md": "6f2530af94f1abd228b08064736f34fcfd44517b93ff98f6cc30e5feca90bff0",
+    "specs/001-smart-todo/plan.md": "bcbfe6f61a9781e7f8587a1df7c86798dad99ee2e6fb5e60f0ab079623dc4953",
+    "specs/001-smart-todo/quickstart.md": "c06fd7b1c18b63333ad6443f4fd959f64ad2f76390ebf3de0fda7050c24a8d72",
+    "specs/001-smart-todo/research.md": "6934e150bb845364f80e08957e358e059e9017edddfd4fbb5801e756139adfa3",
+    "specs/001-smart-todo/spec.md": "e34e01cb073e6247cc97310660367e3bbc4b69a62fe966c57bc1b2560841783b",
+    "specs/001-smart-todo/tasks.md": "8c3cc05fb5a290886aa7b61627e16da4aac5186fe358fdd5bca3199380073950",
+    "tests/conftest.py": "4840409f585405785c050e1f0f70195600f4875510934f3c299e1d6fae55b054",
+    "tests/test_contract_cli.py": "e28390829ef64f8bc60f44f26af846e98b7288fa2ef16e1607f3f1666cd31d2d"
+  },
+  "gates": [
+    {
+      "gate": "integrity",
+      "command": "(internal)",
+      "exit_code": 0,
+      "status": "PASS",
+      "duration_s": 0.0,
+      "issues": [],
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "gate": "lint",
+      "command": "/home/nitin/Downloads/Assignment-1/Part-1A/.venv/bin/python -m ruff check src tests .harness --config .harness/ruff.toml --output-format json",
+      "exit_code": 0,
+      "status": "PASS",
+      "duration_s": 0.07,
+      "issues": [],
+      "stdout_tail": "[]",
+      "stderr_tail": ""
+    },
+    {
+      "gate": "security",
+      "command": "/home/nitin/Downloads/Assignment-1/Part-1A/.venv/bin/python -m bandit -r src -ll -f json -q",
+      "exit_code": 0,
+      "status": "PASS",
+      "duration_s": 0.51,
+      "issues": [],
+      "stdout_tail": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-11-15T15:47:55Z\",\n  \"metrics\": {\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 8,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 8,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 494,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/__init__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 3,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/__main__.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 2,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/cli.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 7,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 7,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 208,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/errors.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 24,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/service.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 1,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 164,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"src/todo/store.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 93,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+      "stderr_tail": ""
+    },
+    {
+      "gate": "tests",
+      "command": "/home/nitin/Downloads/Assignment-1/Part-1A/.venv/bin/python -m pytest tests -q --junitxml=/home/nitin/Downloads/Assignment-1/Part-1A/evidence/harness-results/run-003-initial-junit.xml --cov=todo --cov-report=term-missing --cov-fail-under=85",
+      "exit_code": 0,
+      "status": "PASS",
+      "duration_s": 1.66,
+      "issues": [],
+      "stdout_tail": "..................................................                       [100%]\n================================ tests coverage ================================\n_______________ coverage: platform linux, python 3.12.7-final-0 ________________\n\nName                   Stmts   Miss  Cover   Missing\n----------------------------------------------------\nsrc/todo/__init__.py       2      0   100%\nsrc/todo/__main__.py       0      0   100%\nsrc/todo/cli.py           62      3    95%   179, 200, 216\nsrc/todo/errors.py        20      0   100%\nsrc/todo/service.py      130      8    94%   24, 43, 51, 53, 66, 74, 81, 164\nsrc/todo/store.py         22      0   100%\n----------------------------------------------------\nTOTAL                    236     11    95%\nRequired test coverage of 85% reached. Total coverage: 95.34%\n50 passed in 0.88s\n",
+      "stderr_tail": ""
+    }
+  ]
+}

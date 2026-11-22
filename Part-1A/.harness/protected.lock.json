@@ -1,0 +1,18 @@
+{
+  "created": "2026-11-15T15:27:27.614968+00:00",
+  "files": {
+    ".harness/ruff.toml": "3fae97e56819ab4782adc66aa6877a28ee78b63eb1c2286bcd2fa41c8ee9d1b7",
+    ".harness/run_harness.py": "6cf46279ab638a41a81545e33dcc42fb501046ba458586655125640b423931bf",
+    ".specify/memory/constitution.md": "cba69d6b7925201dcf7e1b229d3331110c42d05000f0ba078c46bc98825b2df6",
+    "specs/001-smart-todo/checklists/requirements.md": "f3be81565cbff45823e3b31b961e952dfe155030ff18235bc99e32c78356b17b",
+    "specs/001-smart-todo/contracts/cli-contract.md": "5369d6acc9ce4c0b205b92e8e33d9dd745cda3b4adf7a755ddd8befe70a407c7",
+    "specs/001-smart-todo/data-model.md": "6f2530af94f1abd228b08064736f34fcfd44517b93ff98f6cc30e5feca90bff0",
+    "specs/001-smart-todo/plan.md": "bcbfe6f61a9781e7f8587a1df7c86798dad99ee2e6fb5e60f0ab079623dc4953",
+    "specs/001-smart-todo/quickstart.md": "c06fd7b1c18b63333ad6443f4fd959f64ad2f76390ebf3de0fda7050c24a8d72",
+    "specs/001-smart-todo/research.md": "6934e150bb845364f80e08957e358e059e9017edddfd4fbb5801e756139adfa3",
+    "specs/001-smart-todo/spec.md": "e34e01cb073e6247cc97310660367e3bbc4b69a62fe966c57bc1b2560841783b",
+    "specs/001-smart-todo/tasks.md": "8c3cc05fb5a290886aa7b61627e16da4aac5186fe358fdd5bca3199380073950",
+    "tests/conftest.py": "4840409f585405785c050e1f0f70195600f4875510934f3c299e1d6fae55b054",
+    "tests/test_contract_cli.py": "e28390829ef64f8bc60f44f26af846e98b7288fa2ef16e1607f3f1666cd31d2d"
+  }
+}

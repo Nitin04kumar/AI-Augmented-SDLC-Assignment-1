@@ -1,0 +1,15 @@
+{
+  "label": "final-groq-verification",
+  "created": "2026-11-22T12:49:01.810216+00:00",
+  "files": {
+    "prompts/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompts/system.md": "fa89f7afe958cf708ca746395058512a4356cb265198c864fcdfabf829c1df7c",
+    "src/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/reminder_agent/__init__.py": "0d94713281c0222787ce675b4f5c7d31d7ee864e075416f0b14db9cf835861c1",
+    "src/reminder_agent/__main__.py": "869dda76924dd5cc9053f65d18ab0dd570d3b810fea61ec4d0c6e5a373319ebd",
+    "src/reminder_agent/agent.py": "f84d85a60eac235e456c39967253a1552ac2809e6a211af8b881434c7f47b4fd",
+    "src/reminder_agent/cli.py": "0357ce6b19645e6d4d5dad129b281a3384dd91085c045faecf3b1372482a900e",
+    "src/reminder_agent/guardrails.py": "22c946c10d5e0d9886b2e07d45efe8447c7c72db47b20299e424bfe7b7714ad8",
+    "src/reminder_agent/llm.py": "6bd121cdcf90713fb08babb37c67f3bb8798ac5d6c87065c8f992ed92ffaa5b4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "created": "2026-11-22T11:08:56.735724+00:00",
+  "files": {
+    "evals/dataset.json": "2bf598fcb9bf10dfae4da31017c8e1aff56b57865c442c902f550e492e140209",
+    ".harness/thresholds.json": "6f04edb146cd3622e9a431d456e85a2fd28d5503beaa26e57eae8b60b74bf913",
+    ".harness/run_eval.py": "b124102dbe4b88ea563d375161dff624674641bfb1647bc1cd6bb15c7c7e48c7",
+    ".harness/schema/output.schema.json": "7f9f441392a84852b56b0c05f9ea3715a2cbcb0649aecbe8b88e75d904141854",
+    ".harness/evaluators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".harness/evaluators/properties.py": "db64e85f4973feabbacfa6f846ef65558c920c1271b128fa2360874c28e9724e",
+    ".harness/evaluators/semantic.py": "677d4b45b8fbea427a0990dc9b22fd9c9c079ad8b6e15dc1797e6e298d47f24b",
+    ".harness/evaluators/structural.py": "60427cdae1f4113d0f9bfaaac45064589aa2fbaa771ecaf04e5fd10cabc63499",
+    "specs/001-natural-language-reminder-agent/contracts/cli-contract.md": "a136cfcb65175cdf3bed025ec552aa6824c31c5172d7c26563b27e010eaa3bba",
+    "specs/001-natural-language-reminder-agent/data-model.md": "86447388199555f2da7613940ab851b57b756e91bb52a45e67e353d440e772f4",
+    "specs/001-natural-language-reminder-agent/plan.md": "54ba2a7a08d1ca2188c12e50d23b90a53d13ca3a340a5b960d7ea2f0ba0d1181",
+    "specs/001-natural-language-reminder-agent/quickstart.md": "6d28074b55cb15cd47cf156b9df7f96934864f34ffa55cd49bfc996380659ec8",
+    "specs/001-natural-language-reminder-agent/research.md": "f3c42267920e156dff56c314ed31b23145b6925d46838fa480aa834d048753d4",
+    "specs/001-natural-language-reminder-agent/spec.md": "f84baba174940fa5a6102294ee6cb241ddc570a4efd9d6636e9fc4b819277e4c",
+    "specs/001-natural-language-reminder-agent/tasks.md": "a12bfcdff480364eefe90464c0290bdd697d1f8469d58fbf57f37515bef2231e",
+    ".specify/memory/constitution.md": "a7c4ba5effbf36f81ecac3e800ad84e6a9c742658920516a5fa7d6864a1be863"
+  }
+}
