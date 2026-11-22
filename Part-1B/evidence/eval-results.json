@@ -1,12 +1,11 @@
 {
-  "run": 12,
-  "label": "groq-reschedule-fix",
-  "timestamp": "2026-11-22T12:47:39.131154+00:00",
+  "run": 13,
+  "label": "demo-groq",
+  "timestamp": "2026-11-22T17:22:44.250152+00:00",
   "config": {
-    "provider": "openai-compatible",
-    "base_url": "https://api.groq.com/openai/v1",
-    "model": "openai/gpt-oss-120b",
-    "temperature": 0.3,
+    "provider": "mock",
+    "model": "regex-heuristic",
+    "temperature": 0,
     "repeats": 1,
     "dataset_sha256": "2bf598fcb9bf10dfae4da31017c8e1aff56b57865c442c902f550e492e140209"
   },
@@ -66,9 +65,9 @@
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.99
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"call mom\",\n  \"remind_at\": \"2026-11-17T18:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.99\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"call mom\", \"remind_at\": \"2026-11-17T18:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -100,16 +99,16 @@
         {
           "output": {
             "intent": "create",
-            "title": "Submit the SDLC assignment",
+            "title": "submit the sdlc assignment",
             "remind_at": "2026-11-20T10:30:00+05:30",
             "recurrence": null,
             "needs_clarification": false,
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.99
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"Submit the SDLC assignment\",\n  \"remind_at\": \"2026-11-20T10:30:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.99\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"submit the sdlc assignment\", \"remind_at\": \"2026-11-20T10:30:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -141,16 +140,16 @@
         {
           "output": {
             "intent": "create",
-            "title": "take my medicine",
+            "title": "to take my medicine",
             "remind_at": "2026-11-16T11:00:00+05:30",
             "recurrence": null,
             "needs_clarification": false,
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.99
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"take my medicine\",\n  \"remind_at\": \"2026-11-16T11:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.99\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"to take my medicine\", \"remind_at\": \"2026-11-16T11:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -189,9 +188,9 @@
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.97
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"review the sprint backlog\",\n  \"remind_at\": \"2026-11-23T08:00:00+05:30\",\n  \"recurrence\": \"weekly\",\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.97\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"review the sprint backlog\", \"remind_at\": \"2026-11-23T08:00:00+05:30\", \"recurrence\": \"weekly\", \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -223,16 +222,16 @@
         {
           "output": {
             "intent": "create",
-            "title": "drink water",
+            "title": "drink water at",
             "remind_at": "2026-11-17T00:00:00+05:30",
             "recurrence": null,
             "needs_clarification": false,
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.97
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"drink water\",\n  \"remind_at\": \"2026-11-17T00:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.97\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"drink water at\", \"remind_at\": \"2026-11-17T00:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -271,9 +270,9 @@
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.97
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"pay rent\",\n  \"remind_at\": \"2026-11-30T17:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.97\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"pay rent\", \"remind_at\": \"2026-11-30T17:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -310,14 +309,17 @@
             "recurrence": null,
             "needs_clarification": true,
             "missing_fields": [
+              "date",
               "time"
             ],
-            "clarification_question": "Do you want to set the reminder for a later time today or on a different day?",
+            "clarification_question": "That time is not valid. What future date and time should I use?",
             "refusal_reason": null,
-            "confidence": 0.96
+            "confidence": 0.5
           },
-          "raw_model_output": "{\n  \"intent\": \"clarify\",\n  \"title\": null,\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"time\"],\n  \"clarification_question\": \"Do you want to set the reminder for a later time today or on a different day?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.96\n}",
-          "guardrail_actions": [],
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"call the dentist\", \"remind_at\": \"2026-11-16T09:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
+          "guardrail_actions": [
+            "G-05 remind_at outside future/horizon -> clarify"
+          ],
           "structural_violations": [],
           "property_violations": [],
           "semantic": {
@@ -356,11 +358,11 @@
               "date",
               "time"
             ],
-            "clarification_question": "What date and time would you like to be reminded about the meeting?",
+            "clarification_question": "What date and time?",
             "refusal_reason": null,
-            "confidence": 0.96
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"clarify\",\n  \"title\": \"meeting\",\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"date\", \"time\"],\n  \"clarification_question\": \"What date and time would you like to be reminded about the meeting?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.96\n}",
+          "raw_model_output": "{\"intent\": \"clarify\", \"title\": null, \"remind_at\": null, \"recurrence\": null, \"needs_clarification\": true, \"missing_fields\": [\"date\", \"time\"], \"clarification_question\": \"What date and time?\", \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -400,11 +402,11 @@
               "date",
               "time"
             ],
-            "clarification_question": "Which day and time next week would you like to be reminded to call John?",
+            "clarification_question": "What date and time?",
             "refusal_reason": null,
-            "confidence": 0.96
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"clarify\",\n  \"title\": \"call John\",\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"date\", \"time\"],\n  \"clarification_question\": \"Which day and time next week would you like to be reminded to call John?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.96\n}",
+          "raw_model_output": "{\"intent\": \"clarify\", \"title\": null, \"remind_at\": null, \"recurrence\": null, \"needs_clarification\": true, \"missing_fields\": [\"date\", \"time\"], \"clarification_question\": \"What date and time?\", \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -443,14 +445,12 @@
             "missing_fields": [
               "title"
             ],
-            "clarification_question": "What should I remind you about?",
+            "clarification_question": "What should i remind you about?",
             "refusal_reason": null,
-            "confidence": 0.5
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": null,\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"title\"],\n  \"clarification_question\": \"What should the reminder say?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.96\n}",
-          "guardrail_actions": [
-            "INV-02 create title missing -> clarify"
-          ],
+          "raw_model_output": "{\"intent\": \"clarify\", \"title\": null, \"remind_at\": null, \"recurrence\": null, \"needs_clarification\": true, \"missing_fields\": [\"title\"], \"clarification_question\": \"What should i remind you about?\", \"refusal_reason\": null, \"confidence\": 0.7}",
+          "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
           "semantic": {
@@ -489,14 +489,12 @@
               "date",
               "time"
             ],
-            "clarification_question": "What exact date and time should I use?",
+            "clarification_question": "What date and time?",
             "refusal_reason": null,
-            "confidence": 0.5
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"buy groceries\",\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"date\", \"time\"],\n  \"clarification_question\": \"When would you like to be reminded to buy groceries?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.96\n}",
-          "guardrail_actions": [
-            "G-04 invalid or offset-less remind_at -> clarify"
-          ],
+          "raw_model_output": "{\"intent\": \"clarify\", \"title\": null, \"remind_at\": null, \"recurrence\": null, \"needs_clarification\": true, \"missing_fields\": [\"date\", \"time\"], \"clarification_question\": \"What date and time?\", \"refusal_reason\": null, \"confidence\": 0.7}",
+          "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
           "semantic": {
@@ -534,9 +532,9 @@
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.99
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"snooze\",\n  \"title\": \"Team standup\",\n  \"remind_at\": \"2026-11-16T09:15:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.99\n}",
+          "raw_model_output": "{\"intent\": \"snooze\", \"title\": \"Team standup\", \"remind_at\": \"2026-11-16T09:15:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -575,9 +573,9 @@
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.98
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"reschedule\",\n  \"title\": \"Dentist appointment\",\n  \"remind_at\": \"2026-11-20T16:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.98\n}",
+          "raw_model_output": "{\"intent\": \"reschedule\", \"title\": \"Dentist appointment\", \"remind_at\": \"2026-11-20T16:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -620,7 +618,7 @@
             "refusal_reason": null,
             "confidence": 0.5
           },
-          "raw_model_output": "{\n  \"intent\": \"snooze\",\n  \"title\": null,\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"target_reminder\"],\n  \"clarification_question\": \"Which reminder would you like to snooze?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.93\n}",
+          "raw_model_output": "{\"intent\": \"snooze\", \"title\": null, \"remind_at\": \"2026-11-16T09:10:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [
             "INV-06 missing target reminder -> clarify"
           ],
@@ -659,15 +657,14 @@
             "recurrence": null,
             "needs_clarification": true,
             "missing_fields": [
-              "title",
               "date",
               "time"
             ],
-            "clarification_question": "Could you please provide the reminder title and the date/time you would like to set?",
+            "clarification_question": "What date and time?",
             "refusal_reason": null,
-            "confidence": 0.93
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"clarify\",\n  \"title\": null,\n  \"remind_at\": null,\n  \"recurrence\": null,\n  \"needs_clarification\": true,\n  \"missing_fields\": [\"title\", \"date\", \"time\"],\n  \"clarification_question\": \"Could you please provide the reminder title and the date/time you would like to set?\",\n  \"refusal_reason\": null,\n  \"confidence\": 0.93\n}",
+          "raw_model_output": "{\"intent\": \"clarify\", \"title\": null, \"remind_at\": null, \"recurrence\": null, \"needs_clarification\": true, \"missing_fields\": [\"date\", \"time\"], \"clarification_question\": \"What date and time?\", \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
@@ -787,16 +784,16 @@
         {
           "output": {
             "intent": "create",
-            "title": "Call Sam",
+            "title": "call sam",
             "remind_at": "2026-11-17T15:00:00+05:30",
             "recurrence": null,
             "needs_clarification": false,
             "missing_fields": [],
             "clarification_question": null,
             "refusal_reason": null,
-            "confidence": 0.99
+            "confidence": 0.7
           },
-          "raw_model_output": "{\n  \"intent\": \"create\",\n  \"title\": \"Call Sam\",\n  \"remind_at\": \"2026-11-17T15:00:00+05:30\",\n  \"recurrence\": null,\n  \"needs_clarification\": false,\n  \"missing_fields\": [],\n  \"clarification_question\": null,\n  \"refusal_reason\": null,\n  \"confidence\": 0.99\n}",
+          "raw_model_output": "{\"intent\": \"create\", \"title\": \"call sam\", \"remind_at\": \"2026-11-17T15:00:00+05:30\", \"recurrence\": null, \"needs_clarification\": false, \"missing_fields\": [], \"clarification_question\": null, \"refusal_reason\": null, \"confidence\": 0.7}",
           "guardrail_actions": [],
           "structural_violations": [],
           "property_violations": [],
